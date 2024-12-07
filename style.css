@@ -1,7 +1,5 @@
 /* -------------------- IMPORTED FONTS -------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kavoon&display=swap');
-
-/* -------------------- ROOT VARIABLES --------------------------------------- */
 :root {
     --color-blue: #484FB7;
     --color-pink: #D9526F;
@@ -14,7 +12,6 @@
     --font-secondary: 'Kavoon', cursive;
 }
 
-/* -------------------- GLOBAL STYLES --------------------------------------- */
 body {
     font-family: var(--font-primary);
     margin: 0;
@@ -39,7 +36,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 /* -------------------- HEADER STYLES --------------------------------------- */
 .head-inner {
     text-align: center;
@@ -118,7 +114,6 @@ header .subheading {
     color: var(--color-white);
 }
 
-/* -------------------- SERVICES SECTION ------------------------------------ */
 .services {
     background-color: var(--color-blue);
     padding: 40px 20px;
@@ -159,8 +154,6 @@ header .subheading {
     margin: 10px 0;
     color: var(--color-blue);
 }
-
-/* -------------------- WHY CHOOSE US SECTION ------------------------------- */
 .why-us {
     background-color: var(--color-pink);
     padding: 10px 20px;
@@ -193,8 +186,6 @@ header .subheading {
     text-align: center;
     max-width: 200px;
 }
-
-/* -------------------- PRICING SECTION ------------------------------------- */
 .pricing {
     background-color: var(--color-blue);
     padding: 40px 20px;
@@ -260,8 +251,6 @@ header .subheading {
     text-align: right;
     font-weight: bold;
 }
-
-/* -------------------- CONTACT SECTION ------------------------------------- */
 .contact {
     background-color: var(--color-pink);
     color: var(--color-white);
@@ -298,8 +287,6 @@ header .subheading {
     color: var(--color-blue);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
-
-/* -------------------- FOOTER SECTION -------------------------------------- */
 .footer {
     display: flex;
     justify-content: space-around;
@@ -327,9 +314,6 @@ header .subheading {
     text-decoration: underline;
 }
 
-
-
-
 /* -------------------- custom css -------------------------------------- */
 
 /* Header */
@@ -339,7 +323,6 @@ header .subheading {
     color: #ffffff;
     text-align: left;
 }
-
 /* Container for Columns */
 .service-container {
     display: flex;
@@ -347,7 +330,6 @@ header .subheading {
     gap: 20px;
     flex-wrap: wrap; /* Responsive Layout */
 }
-
 /* Individual Columns */
 .column {
     display: flex;
@@ -355,7 +337,6 @@ header .subheading {
     gap: 20px;
     flex: 1; /* Ensures Equal Spacing */
 }
-
 /* Box Styling */
 .service-box {
     background: #FFFFFF;
@@ -365,19 +346,16 @@ header .subheading {
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 /* Hover Effect */
 .service-box:hover {
     transform: translateY(-5px);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
-
 /* Icon Styling */
 .service-box .icon {
     max-width: 100px;
     /* margin-bottom: 10px; */
 }
-
 /* Text Styling */
 .service-box h4 {
     font-size: 18px;
@@ -385,18 +363,17 @@ header .subheading {
     color: #333333;
     text-align: left;
 }
-
 .service-box p {
     font-size: 14px;
     color: #666666;
     line-height: 1.6;
     text-align: left;
 }
-/* Section Styling */
+
 .section-heading {
     font-size: 20px;
     font-weight: bold;
-    color: #FFC107; /* Adjust to your preferred color */
+    color: #FFC107;
     text-align: center;
 }
 
@@ -445,41 +422,35 @@ header .subheading {
 
 .contact {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */ /* Align items vertically center */
-    gap: 50px; /* Add space between the text and button */
-    padding: 20px; /* Add some padding */
-    /* background-color: #f9f9f9; */ /* Optional: Background color */
-}
+    gap: 50px; 
+    padding: 20px; 
 
 .text-content {
-    max-width: 61%; /* Adjust width of the text block */
+    max-width: 61%; 
     text-align: left;
 }
 
 .text-content h2,
 .text-content p {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .button-container {
     display: flex;
-    align-items: center; /* Align the button vertically center */
-}
+    align-items: center; 
 
 .button {
-    text-decoration: none; /* Remove underline from the link */
-    padding: 10px 70px; /* Add some padding for the button */
-    background-color: #007BFF; /* Button background color */
-    color: #fff; /* Button text color */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    text-decoration: none; 
+    padding: 10px 70px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 
 .button:hover {
-    background-color: #0056b3; /* Darker background on hover */
+    background-color: #0056b3; 
 }
-/* General Section Styling */
 .pricing {
     /* background-color: #4338CA; */ /* Matching purple background */
     padding: 40px 20px;
@@ -529,7 +500,7 @@ tbody td {
     border-top: 1px solid #e0e0e0;
 }
 
-@media (min-width: 1024px) { /* Adjust the width threshold as needed */
+@media (min-width: 1024px) { 
     main {
         width: 100%;
         max-width: 80%;
